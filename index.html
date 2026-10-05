@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Кейс-задача № 3 — Слайдер изображений</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<main class="page">
+		<section class="slider" aria-label="Слайдер изображений">
+			<div class="slider__header">
+				<p class="slider__eyebrow">Кейс-задача № 3</p>
+				<h1 class="slider__title">Слайдер изображений</h1>
+			</div>
+			<div class="slider__viewport">
+				<img class="slider__image" id="sliderImage" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=85" alt="Горный пейзаж">
+				<div class="slider__counter" id="sliderCounter" aria-live="polite">Изображение 1 из 5</div>
+			</div>
+			<div class="slider__controls">
+				<button class="slider__button" id="previousButton" type="button" aria-label="Показать предыдущее изображение">← Назад</button>
+				<button class="slider__button slider__button--primary" id="nextButton" type="button" aria-label="Показать следующее изображение">Вперёд →</button>
+			</div>
+		</section>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
